@@ -18,11 +18,11 @@ import java.util.List;
 
 public class Pack {
 
-    private static final String dir = "E:/SogouT/";
+    private static final String dir = "E:/SogouT/";                      //数据存放路径
     private static final String newName = dir + "pages.001";
     private static final String filePath = dir + "pages";
-    private static final String indexDir = "H:/Index/";
-    private static final String indexName = indexDir + "indexSogou";
+    private static final String indexDir = "H:/Index/";                  //索引包存放路径
+    private static final String indexName = indexDir + "indexSogou";     //最终索引包名称
     private static final String winrarExePath = "C:/Program Files (x86)/WinRAR/WinRAR.exe";
     private static final String winrarCommand = "%s x %s %s";
     private static final String sevenZipExePath = "C:/Program Files/7-Zip/7z.exe";

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d6bd51-d16e-4b6d-8613-06d12142a5f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,8 +17,10 @@
     <session id="-1528367040">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -31,33 +33,24 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="1627" />
+          <entry key="JAVA" value="1710" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3447#3448#0" expanded="true" />
                 <element signature="e#3523#3524#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -88,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ZipProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/Index.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pack.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Pack.java" />
       </list>
     </option>
   </component>
@@ -123,6 +116,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,13 +160,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556665541265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556665829635" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,29 +195,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556649349737</updated>
-      <workItem from="1556649354353" duration="15397000" />
+      <workItem from="1556649354353" duration="15611000" />
+      <workItem from="1556704798847" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15397000" />
+    <option name="totallyTimeSpent" value="16324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30775446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31260097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.22739726" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -232,15 +221,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22739726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,106 +244,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/RandomZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/UnZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Split.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Judge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/SougoData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Database/src/connect/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/SogouT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Num.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1766" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene3.6.1/Java/Test/src/utf8/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Volumes/My Passport/项目/王焱项目/搜狗网页/JieBaChineseAnalyzer.jar!/com/cwc/lucene/analyzer/chinese/JieBaChineseAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common.java" />
+    <entry file="file:///Volumes/My Passport/代码/RandomZip.java" />
+    <entry file="file:///Volumes/My Passport/代码/UnZip.java" />
+    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Test.java" />
+    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Split.java" />
+    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Judge.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/SougoData.java" />
+    <entry file="file:///Volumes/My Passport/代码/Index.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Database/src/connect/Connect.java" />
+    <entry file="file:///Volumes/My Passport/代码/SogouT.java" />
+    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Merge.java" />
+    <entry file="file:///Volumes/My Passport/代码/新建文件夹/Search.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Num.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Test.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene3.6.1/Java/Test/src/utf8/Test.java" />
+    <entry file="jar:///Volumes/My Passport/项目/王焱项目/搜狗网页/JieBaChineseAnalyzer.jar!/com/cwc/lucene/analyzer/chinese/JieBaChineseAnalyzer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ZipProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -364,38 +274,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SogouT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/merge/Write.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/merge/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="41" column="72" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/utf8/Index.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SogouT.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/merge/Write.java" />
+    <entry file="file:///Volumes/My Passport/项目/王焱项目/搜狗网页/数据处理代码/lucene6.6.1/Java/Test/src/merge/Merge.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FileProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
@@ -417,22 +299,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3447#3448#0" expanded="true" />
             <element signature="e#3523#3524#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
