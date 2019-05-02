@@ -11,7 +11,7 @@ import java.io.*;
 
 public class Index {
 
-    public static void write(IndexWriter indexWriter, String filePath, FieldType fieldType) throws Exception {
+    public static void write(IndexWriter indexWriter, String filePath, FieldType fieldType, String fileDir) throws Exception {
         File file = new File(filePath);
         InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(file));
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
@@ -34,6 +34,8 @@ public class Index {
                 if (charset.equals("utf-8")) {
                     String body = textProcess(document);
                     if (!"".equals(body)) {
+                        storeFile(fileDir + docId, html);
+
                         Document doc = new Document();
                         doc.add(new StringField("docno", docId, Field.Store.YES));
                         doc.add(new StringField("url", url, Field.Store.YES));
@@ -47,6 +49,20 @@ public class Index {
         }
 
         inputStreamReader.close();
+    }
+
+    /**
+     * 存储文件
+     * @param filePath
+     * @param html
+     * @throws Exception
+     */
+    public static void storeFile(String filePath, String html) throws Exception {
+        FileOutputStream fileOutputStream = new FileOutputStream(new File(filePath));
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
+        bufferedOutputStream.write(html.getBytes());
+        bufferedOutputStream.flush();
+        bufferedOutputStream.close();
     }
 
     /**

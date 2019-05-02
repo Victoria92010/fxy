@@ -23,6 +23,7 @@ public class Pack {
     private static final String filePath = dir + "pages";
     private static final String indexDir = "H:/Index/";                  //索引包存放路径
     private static final String indexName = indexDir + "indexSogou";     //最终索引包名称
+    private static final String fileDir = "H:/html_files/";              //html文件存储路径
     private static final String winrarExePath = "C:/Program Files (x86)/WinRAR/WinRAR.exe";
     private static final String winrarCommand = "%s x %s %s";
     private static final String sevenZipExePath = "C:/Program Files/7-Zip/7z.exe";
@@ -63,7 +64,7 @@ public class Pack {
             FileProcess.deleteFile(newName);
 
             try {
-                Index.write(indexWriter, filePath, fieldType);
+                Index.write(indexWriter, filePath, fieldType, fileDir);
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
