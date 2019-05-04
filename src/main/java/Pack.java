@@ -1,4 +1,4 @@
-import com.cwc.lucene.analyzer.chinese.JieBaChineseAnalyzer;
+import org.ansj.lucene6.AnsjAnalyzer;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.FieldType;
 import org.apache.lucene.document.TextField;
@@ -32,7 +32,7 @@ public class Pack {
     public static void main(String[] args) {
         String subIndexDir = indexDir + "indexSogou" + getRandomNumber(4);
 
-        Analyzer analyzer = new JieBaChineseAnalyzer();
+        Analyzer analyzer = new AnsjAnalyzer(AnsjAnalyzer.TYPE.nlp_ansj);
         IndexWriterConfig indexWriterConfig = new IndexWriterConfig(analyzer);
         indexWriterConfig.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
         IndexWriter indexWriter = null;
