@@ -34,7 +34,7 @@ public class Index {
                 if (charset.equals("utf-8")) {
                     String body = textProcess(document);
                     if (!"".equals(body)) {
-                        storeFile(fileDir + docId + ".html", html);
+                        storeFile(fileDir + docId, html);
 
                         Document doc = new Document();
                         doc.add(new StringField("docno", docId, Field.Store.YES));
